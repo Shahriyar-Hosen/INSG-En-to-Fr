@@ -1,9 +1,9 @@
 <?php
 /*
- * Block Pattern - TLDR
+ * Block Pattern - TLDR Fr
  */
 
-function insg_register_tldr_block_pattern()
+function insg_register_tldr_fr_block_pattern()
 {
 
 	$content = <<<CONTENT
@@ -15,15 +15,15 @@ function insg_register_tldr_block_pattern()
 	<!-- wp:generateblocks/container {"uniqueId":"2d06f791","isDynamic":true,"blockVersion":4,"spacing":{"marginLeft":"10px","marginLeftMobile":"0px"}} -->
 	<!-- wp:list {"style":{"typography":{"fontSize":"18px"}}} -->
 	<ul style="font-size:18px"><!-- wp:list-item -->
-	<li><strong>Influencer marketing in Southeast Asia is</strong> thriving with an <strong>estimated $2.59 billion</strong> worth in <strong>2024</strong></li>
+	<li><strong>Le marketing d'influence en Asie du Sud-Est est en plein essor avec</strong> une valeur estimée <strong>à 2,59 milliards de dollars en 2024. </strong></li>
 	<!-- /wp:list-item -->
 
 	<!-- wp:list-item -->
-	<li><strong>Instagram </strong>is still the <strong><a href="#">most prominent social media</a></strong> in Southeast Asia</li>
+	<li><strong>Instagram reste le <a href="#">média social le plus important</a> </strong>en <strong>Asie du Sud-Est. </strong></li>
 	<!-- /wp:list-item -->
 
 	<!-- wp:list-item -->
-	<li><strong>Nano-influencer</strong> are gaining a pivotal position among other tiers in <strong><a href="#">Southeast Asia</a></strong></li>
+	<li><strong>Les nano-influenceurs</strong> gagnent une position centrale parmi d'autres niveaux en<strong><a href="#"> Asie du Sud-Est</a></strong></li>
 	<!-- /wp:list-item -->
 
 	<!-- wp:list-item -->
@@ -39,7 +39,7 @@ function insg_register_tldr_block_pattern()
 CONTENT;
 
 	register_block_pattern(
-		'insg/tldr-pattern',
+		'insg/tldr-fr-pattern',
 		array(
 			'title' => __('INSG. TLDR', 'insg'),
 			'description' => _x('Custom TLDR layout.', 'Block pattern description', 'insg'),
@@ -49,4 +49,4 @@ CONTENT;
 
 }
 
-add_action('init', 'insg_register_tldr_block_pattern');
+add_action('init', 'insg_register_tldr_fr_block_pattern');
