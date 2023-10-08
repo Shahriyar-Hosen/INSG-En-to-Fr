@@ -26,13 +26,6 @@ function insg_register_tldr_fr_block_pattern()
 	<li><strong>Les nano-influenceurs</strong> gagnent une position centrale parmi d'autres niveaux en<strong><a href="#"> Asie du Sud-Est</a></strong></li>
 	<!-- /wp:list-item -->
 
-	<!-- wp:list-item -->
-	<li><strong>Southeast Asia’s brands</strong> will rely on <strong>Nano-influencers</strong> for their influencer marketing campaign</li>
-	<!-- /wp:list-item -->
-
-	<!-- wp:list-item -->
-	<li><strong>South Asian online consumers use Instagram</strong> as the main source before buying a product</li>
-	<!-- /wp:list-item --></ul>
 	<!-- /wp:list -->
 	<!-- /wp:generateblocks/container -->
 	<!-- /wp:generateblocks/container -->
